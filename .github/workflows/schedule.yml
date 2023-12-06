@@ -12,4 +12,4 @@ jobs:
         with:
           stale-issue-message: "testing the pipeline"
           days-before-stale: 1
-         days-before-close: 5
+          days-before-close: 5
