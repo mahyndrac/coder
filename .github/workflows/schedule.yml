@@ -1,4 +1,4 @@
-name: schedule apiVersion: batch/v1
+name: stale issues
 
 on:
   schedule:
