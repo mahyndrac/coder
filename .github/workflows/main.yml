@@ -4,9 +4,9 @@ on:
  workflow_dispatch:
    inputs:
      environment:
-       description: "production"
+       description: "Environment"
        type: environment
-       required: true
+       required: false
 concurrency:
   group: ${{ github.event.inputs.environment }}
   cancel-in-progress: true
